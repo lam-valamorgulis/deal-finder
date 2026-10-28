@@ -98,6 +98,7 @@ Each module hides its details behind a small interface. Other modules call only 
 
 ### Principles
 
+- **Phone reaches the dashboard only on the same Wi-Fi** while the app runs on the Mac. Outside, the user uses Telegram. Revisit when moving to Oracle.
 - **Phone and desktop both** (Q35). Phone: the user acts (reads an alert, logs a call). Desktop: the user studies (weekly report, ledger, settings).
 - **Clean and good-looking, without a custom design phase** (Q36). Pico.css base. One accent colour. Light and dark mode.
 - **Numbers first.** Prices use tabular figures, right-aligned, in VND with dot separators (14.450.000đ). Profit is green when positive, red when negative.
@@ -125,6 +126,7 @@ Lãi: xấu −0,9tr · giữa +0,67tr · tốt +2,0tr
 | 1 | Báo cáo giá tuần | One card per Nhóm so sánh: median, P25, count, trend arrow | Table of all groups, sortable, with a small trend line |
 | 1 | Cài đặt từ khóa | Simple list with add / remove | Same, with filters per keyword |
 | 2 | Báo cáo hiệu chỉnh | Median haggle, "còn" share, calls left to reach 20 | Same, plus the list of calls |
+| 2 | Tin bot đã gửi | One card per tin the bot sent: Giá rao then → now, Tin biến mất, last outcome or "chưa ghi", log buttons | Table, one row per tin, opens to every message; filter by day and outcome |
 | 3 | Danh sách deal | Cards sorted by travel minutes | Table with the three scenarios |
 | 3 | Sổ giao dịch | Cards per tin with its stage | Table with filters by stage and outcome |
 | 3 | Cài đặt | Khu vực mua, minimum profit, scenario values | Same |
